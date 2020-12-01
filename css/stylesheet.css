@@ -70,10 +70,16 @@ h2{
 	.container{
 		flex-direction: row;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
-	.col-med-1{
-		
+	.box{		
+		width: calc(50% - 20px);		
+		margin: 10px;
+	}
+
+	#box3{
+		width: calc(100% - 20px);
 	}
 }
 
@@ -82,4 +88,9 @@ h2{
 	.container{
 		flex-direction: row;
 	}
+
+	.box{
+		margin: 20px;
+	}
+
 }
